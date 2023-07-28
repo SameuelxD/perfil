@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+.container_main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+h2{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.one_column{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid #000;
+}
+.foto_perfil{
+    width: 50%;
+    height: 50%;
+}
+.foto_perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.perfil_personal{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    border-top: 10px solid #000;
+}
+.two_column{
+    width: 100%;
+    height: 100%;
+    border: 5px solid #000;
+}
+.skill_tecnologico{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.javascript,.python,.php,.html,.css{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nivel{
+    display: flex;
+    flex-direction: column;
+}
+.proyectos_personales{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 10px solid #000;
+}
+.proyecto1,.proyecto2{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+.proyecto1 img,.proyecto2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid #000;
+}
+.three_column{
+    width: 100%;
+    height: 100%;
+    border: 5px solid #000;
+}
+.idiomas{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.estudios{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 10px solid #000;
+}
+.institucion{
+    width: 200px;
+    height: 200px;
+}
+.institucion img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
