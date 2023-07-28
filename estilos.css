@@ -25,6 +25,7 @@ h2{
     align-items: center;
     flex-direction: column;
     border: 5px solid #000;
+    background-color: #0B666A;
 }
 .foto_perfil{
     width: 50%;
@@ -47,6 +48,7 @@ h2{
     width: 100%;
     height: 100%;
     border: 5px solid #000;
+    background-color: #35A29F;
 }
 .skill_tecnologico{
     width: 100%;
@@ -98,6 +100,7 @@ h2{
     width: 100%;
     height: 100%;
     border: 5px solid #000;
+    background-color: #97FEED;
 }
 .idiomas{
     width: 100%;
@@ -117,9 +120,11 @@ h2{
 .institucion{
     width: 200px;
     height: 200px;
+    border-radius: 100%;
 }
 .institucion img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 100%;
 }
